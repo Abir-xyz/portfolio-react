@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--white);
+  scroll-behavior: smooth;
+}
+
+:root {
+  --mainColor: #519872;
+  --primaryBlack: #151a1e;
+  --textWhite: #ebebeb;
+  --white: #f3f3f3f8;
+  --textBlack: #111;
+}
+
+.dark-mode {
+  background-color: var(--primaryBlack);
+}
+
+/* dark mode settings */
+.dark-mode .fixed-nav {
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.dark-mode section .navbar-link {
+  color: var(--textWhite);
+}
+.dark-mode .nav-enter {
+  color: var(--textWhite);
+}
+.dark-mode .nav-exit {
+  color: var(--textWhite);
+}
