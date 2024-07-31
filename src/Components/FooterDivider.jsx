@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const FooterDivider = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Wrapper className='section'>
       <section className='footer-divider-container'>
@@ -17,7 +21,7 @@ const FooterDivider = () => {
           </div>
           <div className='section-contact-wrapper'>
             <div className='footer-btn-wrapper'>
-              <Link to='/contact' className='footer-btn'>
+              <Link to='/contact' className='footer-btn' onClick={scrollToTop}>
                 Let's do this
               </Link>
             </div>

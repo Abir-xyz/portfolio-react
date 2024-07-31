@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const SkillsDivider = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Wrapper className='section'>
       <section className='skills'>
@@ -30,7 +34,7 @@ const SkillsDivider = () => {
             </div>
           </div>
           <div class='skills-btn-wrapper'>
-            <Link to='/about' class='skill-btn'>
+            <Link to='/about' class='skill-btn' onClick={scrollToTop}>
               Here's All
             </Link>
           </div>

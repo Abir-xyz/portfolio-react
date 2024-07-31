@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const Projects_Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Wrapper className='section'>
       <section className='projects-container'>
@@ -13,7 +17,11 @@ const Projects_Home = () => {
         </div>
         {/* mappin here  */}
         <div className='project-next-container'>
-          <Link to='/projects' className='pn-btn hvr-radial-in'>
+          <Link
+            to='/projects'
+            className='pn-btn hvr-radial-in'
+            onClick={scrollToTop}
+          >
             Show all projects
           </Link>
         </div>

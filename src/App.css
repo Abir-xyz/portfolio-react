@@ -18,6 +18,7 @@ body {
   --textBlack: #111;
   --dark: hsla(0, 0%, 100%, 0.04);
   --hoverTime: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  --mainGray: hsla(0, 0%, 100%, 0.747);
 }
 
 .dark-mode {
@@ -104,6 +105,12 @@ body {
 .dark-mode section .about-container {
   background-color: var(--dark);
 }
+.dark-mode section .about-text {
+  color: var(--mainGray);
+}
+.dark-mode section .about-btn {
+  color: var(--mainGray);
+}
 
 /* dark mode skills divider */
 .dark-mode section .skills {
@@ -156,4 +163,15 @@ body {
 /* dark mode footer */
 .dark-mode section .footer-container {
   background: var(--dark);
+}
+
+/* dark mode about page */
+.dark-mode section .abt-header-text {
+  color: var(--textWhite);
+}
+.dark-mode section .abt-skills-text {
+  color: var(--textWhite);
+}
+.dark-mode section .skill-title {
+  color: var(--mainGray);
 }

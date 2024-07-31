@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import '../test.css';
 
 const About = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Wrapper className='section'>
       <section className='about-container'>
@@ -19,7 +23,7 @@ const About = () => {
               the past few months i'm learning about Backend stuffs
             </p>
             <div id='abt-btn'>
-              <Link to='/about' className='about-btn'>
+              <Link to='/about' className='about-btn' onClick={scrollToTop}>
                 <span className='about-icon'>
                   <i className='fa-regular fa-circle-right'></i>
                 </span>
