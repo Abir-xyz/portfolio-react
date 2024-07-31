@@ -148,6 +148,10 @@ body {
   color: var(--textWhite);
   border-color: var(--textWhite);
 }
+.dark-mode section .footer-btn:hover {
+  color: var(--mainColor);
+  background: var(--textWhite);
+}
 
 /* dark mode footer */
 .dark-mode section .footer-container {
