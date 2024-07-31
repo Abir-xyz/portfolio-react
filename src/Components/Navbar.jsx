@@ -47,7 +47,7 @@ const Navbar = () => {
   // fixed nav on scroll
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 1) {
         setIsFixed(true);
       } else {
         setIsFixed(false);

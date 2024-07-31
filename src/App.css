@@ -16,6 +16,7 @@ body {
   --textWhite: #ebebeb;
   --white: #f3f3f3f8;
   --textBlack: #111;
+  --dark: hsla(0, 0%, 100%, 0.04);
 }
 
 .dark-mode {
@@ -96,4 +97,9 @@ body {
 }
 .dark-mode .banner-subtitle {
   color: var(--textWhite);
+}
+
+/* dark mode about */
+.dark-mode section .about-container {
+  background-color: var(--dark);
 }

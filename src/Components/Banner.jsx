@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 import bannerImg from '../assets/theme/banner1.svg';
-// remove
-import '../test.css';
 
 const Banner = () => {
   return (
@@ -106,6 +104,7 @@ const Wrapper = styled.section`
 
   .banner-center {
     height: 80vh;
+    margin-bottom: 10rem;
   }
 
   @media screen and (min-width: 769px) {
