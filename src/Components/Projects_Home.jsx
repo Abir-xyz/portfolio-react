@@ -64,6 +64,18 @@ const Wrapper = styled.section`
     background-color: var(--mainColor);
     color: var(--textWhite);
   }
+
+  @media screen and (max-width: 768px) {
+    .project-header-title {
+      font-size: 4.4rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .project-header-title {
+      font-size: 3rem;
+    }
+  }
 `;
 
 export default Projects_Home;
