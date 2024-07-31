@@ -124,3 +124,11 @@ body {
   background-color: var(--textWhite);
   color: var(--mainColor);
 }
+
+/* dark mode projects home */
+.dark-mode .project-header-text {
+  color: var(--textWhite);
+}
+.dark-mode section .pn-btn::before {
+  background: var(--primaryBlack);
+}
