@@ -132,3 +132,24 @@ body {
 .dark-mode section .pn-btn::before {
   background: var(--primaryBlack);
 }
+
+/* dark mode footer section */
+.dark-mode section .section-contact-center {
+  background: var(--mainColor);
+  border-color: var(--mainColor);
+}
+.dark-mode section .section-contact-title {
+  color: var(--textWhite);
+}
+.dark-mode section .section-contact-text {
+  color: var(--textWhite);
+}
+.dark-mode section .footer-btn {
+  color: var(--textWhite);
+  border-color: var(--textWhite);
+}
+
+/* dark mode footer */
+.dark-mode section .footer-container {
+  background: var(--dark);
+}

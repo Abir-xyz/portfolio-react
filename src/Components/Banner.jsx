@@ -104,7 +104,6 @@ const Wrapper = styled.section`
 
   .banner-center {
     height: 80vh;
-    margin-bottom: 10rem;
   }
 
   @media screen and (min-width: 769px) {
@@ -115,6 +114,9 @@ const Wrapper = styled.section`
     }
     .banner-img {
       max-width: 500px;
+    }
+    .banner-center {
+      margin-bottom: 10rem;
     }
   }
 
