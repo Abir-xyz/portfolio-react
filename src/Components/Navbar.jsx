@@ -1,9 +1,6 @@
-import styled from 'styled-components';
+import '../Css/navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-
-// remove
-import '../test.css';
 
 const body = document.querySelector('body');
 
@@ -72,93 +69,91 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <Wrapper className='section'>
-      <section className={`navbar-container ${isFixed ? 'fixed-nav' : ''} `}>
-        <div className='navbar-center'>
-          <div className='navbar-brand'>
-            <div className='navbar-logo'>
-              <Link to='/' className='navbar-logo'>
-                abir
-              </Link>
-            </div>
-            <div className='navbar-togglers'>
-              <button
-                type='button'
-                className={`mood-changeBtn dark-btn ${
-                  darkBtn ? 'show' : 'hide'
-                } `}
-                onClick={handleDarkBtn}
-              >
-                <span>
-                  <i className='fa-solid fa-moon'></i>
-                </span>
-              </button>
-              <button
-                type='button'
-                className={`mood-changeBtn light-btn ${
-                  lightBtn ? 'show' : 'hide'
-                } `}
-                onClick={handleLightBtn}
-              >
-                <span>
-                  <i className='fa-solid fa-sun'></i>
-                </span>
-              </button>
-              <button
-                type='button'
-                className={`toggler-btn nav-enter ${
-                  navEnter ? 'hideBtn' : 'showBtn'
-                } `}
-                onClick={handleNavEnter}
-              >
-                <span>
-                  <i className='fa-solid fa-bars-staggered'></i>
-                </span>
-              </button>
-              <button
-                type='button'
-                className={`toggler-btn nav-exit ${
-                  navExit ? 'showBtn' : 'hideBtn'
-                } `}
-                onClick={handleNavExit}
-              >
-                <span>
-                  <i className='fa-solid fa-xmark'></i>
-                </span>
-              </button>
-            </div>
+    <section className={`navbar-container ${isFixed ? 'fixed-nav' : ''} `}>
+      <div className='navbar-center'>
+        <div className='navbar-brand'>
+          <div className='navbar-logo'>
+            <Link to='/' className='navbar-logo'>
+              abir
+            </Link>
           </div>
-          <div className={`navbar-links  ${navEnter ? 'show-links' : ''} `}>
-            <div className='navbar-links-center'>
-              <NavLink to='/' className='navbar-link' onClick={handleNavExit}>
-                Home
-              </NavLink>
-              <NavLink
-                to='/about'
-                className='navbar-link'
-                onClick={handleNavExit}
-              >
-                About
-              </NavLink>
-              <NavLink
-                to='/projects'
-                className='navbar-link'
-                onClick={handleNavExit}
-              >
-                Projects
-              </NavLink>
-              <NavLink
-                to='/contact'
-                className='navbar-link'
-                onClick={handleNavExit}
-              >
-                Contact
-              </NavLink>
-            </div>
+          <div className='navbar-togglers'>
+            <button
+              type='button'
+              className={`mood-changeBtn dark-btn ${
+                darkBtn ? 'show' : 'hide'
+              } `}
+              onClick={handleDarkBtn}
+            >
+              <span>
+                <i className='fa-solid fa-moon'></i>
+              </span>
+            </button>
+            <button
+              type='button'
+              className={`mood-changeBtn light-btn ${
+                lightBtn ? 'show' : 'hide'
+              } `}
+              onClick={handleLightBtn}
+            >
+              <span>
+                <i className='fa-solid fa-sun'></i>
+              </span>
+            </button>
+            <button
+              type='button'
+              className={`toggler-btn nav-enter ${
+                navEnter ? 'hideBtn' : 'showBtn'
+              } `}
+              onClick={handleNavEnter}
+            >
+              <span>
+                <i className='fa-solid fa-bars-staggered'></i>
+              </span>
+            </button>
+            <button
+              type='button'
+              className={`toggler-btn nav-exit ${
+                navExit ? 'showBtn' : 'hideBtn'
+              } `}
+              onClick={handleNavExit}
+            >
+              <span>
+                <i className='fa-solid fa-xmark'></i>
+              </span>
+            </button>
           </div>
         </div>
-      </section>
-    </Wrapper>
+        <div className={`navbar-links  ${navEnter ? 'show-links' : ''} `}>
+          <div className='navbar-links-center'>
+            <NavLink to='/' className='navbar-link' onClick={handleNavExit}>
+              Home
+            </NavLink>
+            <NavLink
+              to='/about'
+              className='navbar-link'
+              onClick={handleNavExit}
+            >
+              About
+            </NavLink>
+            <NavLink
+              to='/projects'
+              className='navbar-link'
+              onClick={handleNavExit}
+            >
+              Projects
+            </NavLink>
+            <NavLink
+              to='/contact'
+              className='navbar-link'
+              onClick={handleNavExit}
+            >
+              Contact
+            </NavLink>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
@@ -182,9 +177,5 @@ if (darkMode === 'yes') {
 } else {
   switchToLight();
 }
-
-const Wrapper = styled.section`
-  
-`;
 
 export default Navbar;
