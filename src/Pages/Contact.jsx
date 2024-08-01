@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Wrapper className='section'>
       <section className='contact'>
-        <div className='contact-header'>
+        <div className='contact-header animate__animated animate__bounceIn'>
           <h1 className='contact-header-title' id='form'>
             Contact
           </h1>

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+
 // remove
 import '../test.css';
 
@@ -11,8 +12,10 @@ const About = () => {
   return (
     <Wrapper className='section'>
       <section className='about-container'>
-        <h1 className='about-title'>Hello, Hola, Bonjour!</h1>
-        <div className='about-text-container'>
+        <h1 className='about-title' data-aos='fade-down-left'>
+          Hello, Hola, Bonjour!
+        </h1>
+        <div className='about-text-container' data-aos='fade-down-right'>
           <div className='about-text-wrapper'>
             <p className='about-text'>
               Hey i'm Abir a front end web developer based in Bangladesh.

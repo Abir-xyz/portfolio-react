@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home, About, Projects, Contact, ThankYou, Error } from './Pages/Index';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import AOS from 'aos';
+AOS.init();
 
 const App = () => {
   return (

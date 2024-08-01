@@ -9,7 +9,7 @@ const FooterDivider = () => {
   return (
     <Wrapper className='section'>
       <section className='footer-divider-container'>
-        <div className='section-contact-center'>
+        <div className='section-contact-center' data-aos='fade-down'>
           <div className='section-contact-wrapper'>
             <h1 className='section-contact-title'>Hey let's talk!</h1>
           </div>

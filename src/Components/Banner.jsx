@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import bannerImg from '../assets/theme/banner1.svg';
+import 'animate.css';
 
 const Banner = () => {
   return (
     <Wrapper className='section'>
-      <section className='banner-container'>
+      <section className='banner-container' data-aos='fade-up'>
         <div className='banner-center'>
           <div className='banner-txt'>
             <h1 className='banner-title'>Hi, I'm Abir</h1>

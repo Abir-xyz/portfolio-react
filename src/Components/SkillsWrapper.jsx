@@ -7,7 +7,7 @@ const SkillsWrapper = () => {
     <Wrapper className='section'>
       <section className='aboutPage-container'>
         <article className='abt-header'>
-          <div className='abt-header-title-wrapper'>
+          <div className='abt-header-title-wrapper animate__animated animate__bounceIn'>
             <h1 className='abt-header-title' id='about'>
               About
             </h1>

@@ -9,7 +9,7 @@ const SkillsDivider = () => {
   return (
     <Wrapper className='section'>
       <section className='skills'>
-        <div className='skills-center'>
+        <div className='skills-center' data-aos='fade-up'>
           <div className='skills-title-wrapper'>
             <h1 className='skills-title'>Tech Stacks</h1>
           </div>

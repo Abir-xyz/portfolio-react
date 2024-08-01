@@ -9,14 +9,14 @@ const Projects_Home = () => {
   return (
     <Wrapper className='section'>
       <section className='projects-container'>
-        <div className='project-header'>
+        <div className='project-header' data-aos='fade-down-right'>
           <h1 className='project-header-title'>Featured</h1>
           <p className='project-header-text'>
             Here is some of my featured projects
           </p>
         </div>
         {/* mappin here  */}
-        <div className='project-next-container'>
+        <div className='project-next-container' data-aos='flip-down'>
           <Link
             to='/projects'
             className='pn-btn hvr-radial-in'
