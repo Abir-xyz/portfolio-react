@@ -6,6 +6,7 @@ import redux from '../assets/skillsPng/redux.png';
 import ts from '../assets/skillsPng/ts.png';
 import git from '../assets/skillsPng/git.png';
 import github from '../assets/skillsPng/github.png';
+import styled from '../assets/skillsPng/styled-components.png';
 
 const skills = [
   {
@@ -47,6 +48,11 @@ const skills = [
     id: 8,
     img: github,
     title: 'gitHub',
+  },
+  {
+    id: 9,
+    img: styled,
+    title: 'styled-components',
   },
 ];
 
