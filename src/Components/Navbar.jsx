@@ -46,6 +46,7 @@ const Navbar = () => {
 
   // goes on top
   const scrollToTop = () => {
+    handleNavExit();
     window.scrollTo(0, 0);
   };
 
@@ -131,31 +132,23 @@ const Navbar = () => {
         </div>
         <div className={`navbar-links  ${navEnter ? 'show-links' : ''} `}>
           <div className='navbar-links-center'>
-            <NavLink
-              to='/'
-              className='navbar-link'
-              onClick={(handleNavExit, scrollToTop)}
-            >
+            <NavLink to='/' className='navbar-link' onClick={scrollToTop}>
               Home
             </NavLink>
-            <NavLink
-              to='/about'
-              className='navbar-link'
-              onClick={(handleNavExit, scrollToTop)}
-            >
+            <NavLink to='/about' className='navbar-link' onClick={scrollToTop}>
               About
             </NavLink>
             <NavLink
               to='/projects'
               className='navbar-link'
-              onClick={(handleNavExit, scrollToTop)}
+              onClick={scrollToTop}
             >
               Projects
             </NavLink>
             <NavLink
               to='/contact'
               className='navbar-link'
-              onClick={(handleNavExit, scrollToTop)}
+              onClick={scrollToTop}
             >
               Contact
             </NavLink>
