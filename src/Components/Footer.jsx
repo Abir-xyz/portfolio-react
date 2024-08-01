@@ -7,31 +7,31 @@ const Footer = () => {
     <Wrapper className='section'>
       <FooterDivider />
       <section className='footer-container'>
-        <div class='footer-main-center'>
-          <div class='footer-main-container'>
-            <div class='footer-social-container'>
-              <ul class='footer-ul'>
-                <li class='footer-li'>
+        <div className='footer-main-center'>
+          <div className='footer-main-container'>
+            <div className='footer-social-container'>
+              <ul className='footer-ul'>
+                <li className='footer-li'>
                   <a href='https://github.com/Abir-xyz' target='_blank'>
-                    <i class='fa-brands fa-github'></i>
+                    <i className='fa-brands fa-github'></i>
                   </a>
                 </li>
-                <li class='footer-li'>
-                  <a href='#' class='footer-linkedin'>
-                    <i class='fa-brands fa-linkedin-in'></i>
+                <li className='footer-li'>
+                  <a href='#' className='footer-linkedin'>
+                    <i className='fa-brands fa-linkedin-in'></i>
                   </a>
                 </li>
-                <li class='footer-li'>
+                <li className='footer-li'>
                   <a href='mailto: management.abir@gmail.com'>
-                    <i class='fa-solid fa-envelope'></i>
+                    <i className='fa-solid fa-envelope'></i>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class='footer-main-container'>
-            <div class='footer-text-container'>
-              <p class='footer-end'>
+          <div className='footer-main-container'>
+            <div className='footer-text-container'>
+              <p className='footer-end'>
                 &copy; copyright 2024; all rights reserved.
               </p>
             </div>

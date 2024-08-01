@@ -9,32 +9,32 @@ const SkillsDivider = () => {
   return (
     <Wrapper className='section'>
       <section className='skills'>
-        <div class='skills-center'>
-          <div class='skills-title-wrapper'>
-            <h1 class='skills-title'>Tech Stacks</h1>
+        <div className='skills-center'>
+          <div className='skills-title-wrapper'>
+            <h1 className='skills-title'>Tech Stacks</h1>
           </div>
-          <div class='skills-main-wrapper'>
-            <div class='skill-child'>
-              <p class='skills-img-title'>Html5</p>
+          <div className='skills-main-wrapper'>
+            <div className='skill-child'>
+              <p className='skills-img-title'>Html5</p>
             </div>
-            <div class='skill-child'>
-              <p class='skills-img-title'>Css3</p>
+            <div className='skill-child'>
+              <p className='skills-img-title'>Css3</p>
             </div>
-            <div class='skill-child'>
-              <p class='skills-img-title'>Javascript</p>
+            <div className='skill-child'>
+              <p className='skills-img-title'>Javascript</p>
             </div>
-            <div class='skill-child'>
-              <p class='skills-img-title'>TypeScript</p>
+            <div className='skill-child'>
+              <p className='skills-img-title'>TypeScript</p>
             </div>
-            <div class='skill-child'>
-              <p class='skills-img-title'>React.Js</p>
+            <div className='skill-child'>
+              <p className='skills-img-title'>React.Js</p>
             </div>
-            <div class='skill-child'>
-              <p class='skills-img-title'>More...</p>
+            <div className='skill-child'>
+              <p className='skills-img-title'>More...</p>
             </div>
           </div>
-          <div class='skills-btn-wrapper'>
-            <Link to='/about' class='skill-btn' onClick={scrollToTop}>
+          <div className='skills-btn-wrapper'>
+            <Link to='/about' className='skill-btn' onClick={scrollToTop}>
               Here's All
             </Link>
           </div>

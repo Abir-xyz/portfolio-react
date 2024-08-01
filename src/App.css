@@ -81,6 +81,9 @@ body {
 .dark-mode section .navbar-link {
   color: var(--textWhite);
 }
+.dark-mode section .navbar-link:hover {
+  color: var(--mainColor);
+}
 .dark-mode .nav-enter {
   color: var(--textWhite);
 }
@@ -174,4 +177,29 @@ body {
 }
 .dark-mode section .skill-title {
   color: var(--mainGray);
+}
+
+/* dark mode contact page */
+.dark-mode .form-btn::before {
+  background-color: var(--primaryBlack);
+}
+.dark-mode .form-control {
+  color: var(--textWhite);
+}
+.dark-mode #contact-header h1 {
+  color: var(--textWhite);
+}
+.dark-mode .contact-title {
+  color: var(--textWhite);
+}
+.dark-mode .contact-header-text{
+  color: var(--textWhite);
+}
+
+/* dark mode error page */
+.dark-mode .page h1 {
+  color: var(--textWhite);
+}
+.dark-mode .page p {
+  color: var(--textWhite);
 }

@@ -78,7 +78,7 @@ const Navbar = () => {
       <div className='navbar-center'>
         <div className='navbar-brand'>
           <div className='navbar-logo'>
-            <Link to='/' className='navbar-logo'>
+            <Link to='/' className='navbar-logo' onClick={scrollToTop}>
               abir
             </Link>
           </div>
