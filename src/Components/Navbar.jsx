@@ -44,6 +44,11 @@ const Navbar = () => {
     }
   }
 
+  // goes on top
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   // fixed nav on scroll
   useEffect(() => {
     const handleScroll = () => {
@@ -126,27 +131,31 @@ const Navbar = () => {
         </div>
         <div className={`navbar-links  ${navEnter ? 'show-links' : ''} `}>
           <div className='navbar-links-center'>
-            <NavLink to='/' className='navbar-link' onClick={handleNavExit}>
+            <NavLink
+              to='/'
+              className='navbar-link'
+              onClick={(handleNavExit, scrollToTop)}
+            >
               Home
             </NavLink>
             <NavLink
               to='/about'
               className='navbar-link'
-              onClick={handleNavExit}
+              onClick={(handleNavExit, scrollToTop)}
             >
               About
             </NavLink>
             <NavLink
               to='/projects'
               className='navbar-link'
-              onClick={handleNavExit}
+              onClick={(handleNavExit, scrollToTop)}
             >
               Projects
             </NavLink>
             <NavLink
               to='/contact'
               className='navbar-link'
-              onClick={handleNavExit}
+              onClick={(handleNavExit, scrollToTop)}
             >
               Contact
             </NavLink>
