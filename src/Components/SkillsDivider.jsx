@@ -27,7 +27,7 @@ const SkillsDivider = () => {
               <p className='skills-img-title'>TypeScript</p>
             </div>
             <div className='skill-child'>
-              <p className='skills-img-title'>React.Js</p>
+              <p className='skills-img-title'>React</p>
             </div>
             <div className='skill-child'>
               <p className='skills-img-title'>More...</p>
