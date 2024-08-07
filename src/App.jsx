@@ -1,12 +1,17 @@
 import './App.css';
+import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home, About, Projects, Contact, ThankYou, Error } from './Pages/Index';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import AOS from 'aos';
-AOS.init();
+import 'aos/dist/aos.css';
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <>
       <BrowserRouter>

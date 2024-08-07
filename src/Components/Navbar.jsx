@@ -45,7 +45,9 @@ const Navbar = () => {
   }
 
   // goes on top
-  const scrollToTop = () => {
+  const scrollToTop = (e) => {
+    let targetLocation = e.target.href;
+    window.targetLocation.reload();
     handleNavExit();
     window.scrollTo(0, 0);
   };

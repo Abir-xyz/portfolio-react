@@ -5,7 +5,9 @@ import FooterDivider from './FooterDivider';
 const Footer = () => {
   return (
     <Wrapper className='section'>
-      <FooterDivider />
+      <div>
+        <FooterDivider />
+      </div>
       <section className='footer-container'>
         <div className='footer-main-center'>
           <div className='footer-main-container'>

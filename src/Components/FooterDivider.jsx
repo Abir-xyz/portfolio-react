@@ -38,6 +38,7 @@ const Wrapper = styled.section`
     margin: 0 auto;
     transform: translateY(70px);
   }
+
   .section-contact-title {
     font-size: 1.5rem;
     font-weight: 600;
