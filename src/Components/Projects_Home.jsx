@@ -12,7 +12,7 @@ const Projects_Home = () => {
         <div className='project-header' data-aos='fade-down-right'>
           <h1 className='project-header-title'>Featured</h1>
           <p className='project-header-text'>
-            Here is some of my featured projects
+            {/* Here is some of my featured projects */}
           </p>
         </div>
         {/* mappin here  */}

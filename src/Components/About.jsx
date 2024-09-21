@@ -18,12 +18,14 @@ const About = () => {
         <div className='about-text-container' data-aos='fade-down-right'>
           <div className='about-text-wrapper'>
             <p className='about-text'>
-              Hey i'm Abir a front end web developer based in Bangladesh.
-              Currently i'm in high school. So i started my web development
-              journey at 2021 when the Covid-19 pandemic was going nuts & I have
-              a keen interest in coding. Coding is one of my current hobby. For
-              me, i love building websites that enhance a great service. Also
-              the past few months i'm learning about Backend stuffs
+              Hi, I'm Abir, a front-end web developer based in Bangladesh,
+              currently pursuing my high school education. I began my web
+              development journey in 2021 during the height of the COVID-19
+              pandemic, driven by a strong passion for coding. Over time, coding
+              has grown into one of my favorite hobbies. I specialize in
+              crafting websites that provide excellent usability and serve a
+              meaningful purpose. Recently, I’ve also started expanding my
+              knowledge into backend development to further enhance my skills
             </p>
             <div id='abt-btn'>
               <Link to='/about' className='about-btn' onClick={scrollToTop}>

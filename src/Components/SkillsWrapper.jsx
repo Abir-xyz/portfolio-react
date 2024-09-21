@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import skillsData from '../Data/Skills';
 import certificateOne from '../assets/skillsPng/certificate.png';
+import certificateTwo from '../assets/skillsPng/certificate2.png';
 
 const SkillsWrapper = () => {
   return (
@@ -52,10 +53,10 @@ const SkillsWrapper = () => {
                 </div>
                 <div className='cSection-wrapper'>
                   <a
-                    href='https://www.freecodecamp.org/certification/fccc434ccd8-0264-49f0-ac84-f9dd404642cf/responsive-web-design'
+                    href='https://www.freecodecamp.org/certification/fccc434ccd8-0264-49f0-ac84-f9dd404642cf/javascript-algorithms-and-data-structures-v8'
                     target='_blank'
                   >
-                    <img src={certificateOne} className='c-img' />
+                    <img src={certificateTwo} className='c-img' />
                   </a>
                 </div>
               </div>

@@ -13,7 +13,7 @@ const Banner = () => {
               <div className='typed-out'>A front end developer</div>
             </div>
             <p className='banner-subtitle'>
-              I love building stuffs that enhance a better service.
+              Bringing Your Vision to Life through Code.
             </p>
             <div className='banner-btn-wrapped'>
               <a
@@ -84,7 +84,8 @@ const Wrapper = styled.section`
     font-weight: 500;
     line-height: 1.2;
     width: 100%;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
   }
 
   .btn {

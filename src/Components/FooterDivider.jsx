@@ -15,14 +15,14 @@ const FooterDivider = () => {
           </div>
           <div className='section-contact-wrapper'>
             <p className='section-contact-text'>
-              I think this is the beginning of something great. let's work
-              together and make something great.
+              Every great project starts with a vision. Let’s work together to
+              turn that vision into reality
             </p>
           </div>
           <div className='section-contact-wrapper'>
             <div className='footer-btn-wrapper'>
               <Link to='/contact' className='footer-btn' onClick={scrollToTop}>
-                Let's do this
+                Let's do it
               </Link>
             </div>
           </div>
