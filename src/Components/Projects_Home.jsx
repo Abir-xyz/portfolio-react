@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import SingleProject from './SingleProject';
 
 const Projects_Home = () => {
   const scrollToTop = () => {
@@ -15,7 +16,9 @@ const Projects_Home = () => {
             {/* Here is some of my featured projects */}
           </p>
         </div>
-        {/* mappin here  */}
+        <div>
+          <SingleProject />
+        </div>
         <div className='project-next-container' data-aos='flip-down'>
           <Link
             to='/projects'

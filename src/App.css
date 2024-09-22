@@ -203,3 +203,19 @@ body {
 .dark-mode .page p {
   color: var(--textWhite);
 }
+
+/* dark mode projects */
+.dark-mode .project-wrapper .center h1 {
+  color: var(--textWhite) !important;
+}
+.dark-mode .project-wrapper .center p {
+  color: grey !important;
+}
+.dark-mode .project-wrapper .center button {
+  color: var(--mainGray) !important;
+}
+.dark-mode .project-wrapper .center button:hover {
+  background-color: var(--textWhite);
+
+  color: #000 !important;
+}

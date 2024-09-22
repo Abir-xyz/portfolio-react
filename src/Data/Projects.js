@@ -5,8 +5,8 @@ import github from '../assets/projects/github2.png';
 const Data = [
   {
     id: 1,
-    title: 'Spotify Profile Stats',
-    desc: `visualize the data of user's spotify activity. View Top Artist, Top Tracks, Playlists, Recently Played Tracks and more`,
+    title: 'Spotify Profile Insights',
+    desc: `Visualize the data of user's spotify activity. View Top Artist, Top Tracks, Playlists, Recently Played Tracks and more`,
     stacks: [
       'React',
       'React-Router',
@@ -32,8 +32,8 @@ const Data = [
       'Axios',
       'Netlify Functions',
       'Styled-Components',
-      'Stripe for payment',
-      'Auth0 for authentication',
+      'Stripe',
+      'Auth0',
     ],
     img: store,
     background: `linear-gradient(
@@ -64,3 +64,5 @@ const Data = [
   )`,
   },
 ];
+
+export default Data;
