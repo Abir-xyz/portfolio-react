@@ -7,11 +7,7 @@ const SingleProject = () => {
       <div className='wrapper'>
         {Data.map((item) => {
           return (
-            <div
-              className='project-wrapper'
-              key={item.id}
-              backgroundColor={item.background}
-            >
+            <div className='project-wrapper' key={item.id}>
               <div className='center'>
                 <div className='img-wrapper'>
                   <img src={item.img} className='img' />
@@ -21,7 +17,11 @@ const SingleProject = () => {
                   <p className='desc'>{item.desc}</p>
                   <p className='stacks'>
                     {item.stacks.map((stack) => {
-                      return <span className='stack'>{stack} </span>;
+                      return (
+                        <span className='stack' key={stack}>
+                          {stack}{' '}
+                        </span>
+                      );
                     })}
                   </p>
                   <div className='btn-wrapper'>

@@ -1,6 +1,6 @@
-import spotifyStats from '../assets/projects/spotifyProfile.png';
-import store from '../assets/projects/caesers.png';
-import github from '../assets/projects/github2.png';
+import imgOne from '../assets/projects/project-spotify.png';
+import imgTwo from '../assets/projects/project-github-2.png';
+import imgThree from '../assets/projects/project-store.png';
 
 const Data = [
   {
@@ -15,7 +15,7 @@ const Data = [
       'Styled-Components',
       'Spotify REST Api',
     ],
-    img: spotifyStats,
+    img: imgOne,
     background: `linear-gradient(
     120deg,
     rgba(255, 127, 212, 0.25) 0%,
@@ -35,7 +35,7 @@ const Data = [
       'Stripe',
       'Auth0',
     ],
-    img: store,
+    img: imgThree,
     background: `linear-gradient(
     120deg,
     rgba(14, 174, 87, 0.25) 0%,
@@ -56,7 +56,7 @@ const Data = [
       'Github REST Api',
       'Auth0',
     ],
-    img: github,
+    img: imgTwo,
     background: `linear-gradient(
     120deg,
     rgba(172, 207, 108, 0.25) 0%,
