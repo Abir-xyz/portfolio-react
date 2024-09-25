@@ -7,7 +7,11 @@ const SingleProject = () => {
       <div className='wrapper'>
         {Data.map((item) => {
           return (
-            <div className='project-wrapper' key={item.id}>
+            <div
+              className='project-wrapper'
+              key={item.id}
+              style={{ background: item.background }}
+            >
               <div className='center'>
                 <div className='img-wrapper'>
                   <img src={item.img} className='img' />
@@ -25,8 +29,12 @@ const SingleProject = () => {
                     })}
                   </p>
                   <div className='btn-wrapper'>
-                    <button className='project-btn'>View Source</button>
-                    <button className='project-btn'>View Site</button>
+                    <a className='project-btn' href={item.href} target='_0'>
+                      View Source
+                    </a>
+                    <a className='project-btn' href={item.site} target='_0'>
+                      View Site
+                    </a>
                   </div>
                 </div>
               </div>
@@ -41,13 +49,14 @@ const SingleProject = () => {
 const Wrapper = styled.section`
   .project-wrapper {
     margin: 36px 0;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
   .center {
-    border: 1px solid grey;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-radius: 10px;
   }
   .img-wrapper {
     text-align: center;
@@ -55,8 +64,8 @@ const Wrapper = styled.section`
   .img {
     width: 280px;
     border-radius: 5px;
-    border: 3px solid grey;
     margin-bottom: 16px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
   }
   .name {
     font-size: 1.3rem;
@@ -97,7 +106,8 @@ const Wrapper = styled.section`
       sans-serif;
     text-transform: capitalize;
     padding: 4px 10px;
-    border: 1px solid;
+    border: 1px solid #000;
+    color: #000;
     background: transparent;
     cursor: pointer;
     border-radius: 5px;

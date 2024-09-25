@@ -17,8 +17,9 @@ const Banner = () => {
             </p>
             <div className='banner-btn-wrapped'>
               <a
-                href='../../public/Resume.pdf'
-                download
+                href='#'
+                // href='../../public/Resume.pdf'
+                // download
                 className='btn banner-btn hvr-radial-in'
               >
                 download resume
@@ -98,6 +99,10 @@ const Wrapper = styled.section`
     padding: 6px 10px;
     transition: background 0.3s ease-in, color 0.3s ease-in;
     text-transform: capitalize;
+  }
+
+  .banner-btn {
+    cursor: no-drop;
   }
 
   .banner-img {

@@ -16,6 +16,8 @@ const Data = [
       'Spotify REST Api',
     ],
     img: imgOne,
+    href: 'https://github.com/Abir-xyz/spotify-stats-react',
+    site: 'https://spotify-wrap.netlify.app',
     background: `linear-gradient(
     120deg,
     rgba(255, 127, 212, 0.25) 0%,
@@ -36,11 +38,12 @@ const Data = [
       'Auth0',
     ],
     img: imgThree,
+    href: 'https://github.com/Abir-xyz/caeser-s-pizza-store-react',
+    site: 'https://caeserpizzastore.netlify.app',
     background: `linear-gradient(
     120deg,
     rgba(14, 174, 87, 0.25) 0%,
     rgba(12, 116, 117, 0.25) 90%
-  )
   )`,
   },
   {
@@ -57,6 +60,8 @@ const Data = [
       'Auth0',
     ],
     img: imgTwo,
+    href: 'https://github.com/Abir-xyz/github-users',
+    site: 'https://githubstatistics.netlify.app',
     background: `linear-gradient(
     120deg,
     rgba(172, 207, 108, 0.25) 0%,

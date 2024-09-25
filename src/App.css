@@ -209,13 +209,13 @@ body {
   color: var(--textWhite) !important;
 }
 .dark-mode .project-wrapper .center p {
-  color: grey !important;
+  color: rgb(172, 172, 172) !important;
 }
-.dark-mode .project-wrapper .center button {
+.dark-mode .project-wrapper .center a {
   color: var(--mainGray) !important;
+  border-color: var(--mainGray);
 }
-.dark-mode .project-wrapper .center button:hover {
+.dark-mode .project-wrapper .center a:hover {
   background-color: var(--textWhite);
-
   color: #000 !important;
 }
