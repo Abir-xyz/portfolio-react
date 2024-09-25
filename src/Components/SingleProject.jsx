@@ -81,7 +81,7 @@ const Wrapper = styled.section`
     margin-top: 26px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .stack {

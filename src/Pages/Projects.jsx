@@ -12,11 +12,21 @@ const Projects = () => {
 };
 
 const Wrapper = styled.section`
+  * {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
   .project-page-container {
     min-height: 100vh;
   }
-  .container{
+  .container {
     margin-top: 100px;
+  }
+
+  @media screen and (max-width: 800px) {
+    section .project-btn {
+      margin: 0 !important;
+    }
   }
 `;
 
