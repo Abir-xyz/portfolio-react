@@ -87,6 +87,13 @@ const Wrapper = styled.section`
       font-size: 3rem;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .projects-container {
+      max-width: 99vw;
+      margin: 0 auto;
+    }
+  }
 `;
 
 export default Projects_Home;
