@@ -8,11 +8,14 @@ const SkillsWrapper = () => {
     <Wrapper className='section'>
       <section className='aboutPage-container'>
         <article className='abt-header'>
-          <div className='abt-header-title-wrapper animate__animated animate__bounceIn'>
+          <div
+            className='abt-header-title-wrapper animate__animated animate__bounceIn'
+            id='header-title'
+          >
             <h1 className='abt-header-title' id='about'>
               About
             </h1>
-            <p className='abt-header-text'>Abir, a front end developer</p>
+            {/* <p className='abt-header-text'>front end developer</p> */}
           </div>
         </article>
         <section className='abt-skills'>
@@ -74,7 +77,7 @@ const Wrapper = styled.section`
   }
   .abt-header-title-wrapper {
     text-align: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
   }
   .abt-header-title {
     color: var(--mainColor);
@@ -103,7 +106,7 @@ const Wrapper = styled.section`
     height: 40px;
   }
   .abt-skill-center {
-    margin: 60px 0;
+    margin: 40px 0;
   }
   .skill-title {
     text-transform: capitalize;
@@ -135,7 +138,7 @@ const Wrapper = styled.section`
   @media screen and (min-width: 768px) {
     .abt-skill-center {
       display: grid;
-      gap: 1rem;
+      gap: 2rem 1rem;
       grid-template-columns: repeat(6, 1fr);
     }
     .skills-wrapper {
@@ -161,7 +164,6 @@ const Wrapper = styled.section`
     }
     .abt-skill-center {
       display: grid;
-      gap: 1rem;
       grid-template-columns: repeat(3, 1fr);
     }
     .cSection-wrapper img {

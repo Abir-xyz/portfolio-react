@@ -7,6 +7,8 @@ import ts from '../assets/skillsPng/ts.png';
 import git from '../assets/skillsPng/git.png';
 import github from '../assets/skillsPng/github.png';
 import styled from '../assets/skillsPng/styled-components.png';
+import tailwind from '../assets/skillsPng/tailwind.svg';
+import bootstrap from '../assets/skillsPng/bootstrap.png';
 
 const skills = [
   {
@@ -53,6 +55,16 @@ const skills = [
     id: 9,
     img: styled,
     title: 'styled-components',
+  },
+  {
+    id: 10,
+    img: tailwind,
+    title: 'tailwind',
+  },
+  {
+    id: 11,
+    img: bootstrap,
+    title: 'bootstrap',
   },
 ];
 

@@ -219,3 +219,10 @@ body {
   background-color: var(--textWhite);
   color: #000 !important;
 }
+
+/* small header */
+@media screen and (max-width: 800px) {
+  #header-title h1{
+    font-size: 1.8rem !important;
+  }
+}

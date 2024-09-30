@@ -11,6 +11,10 @@ const About = () => {
   );
 };
 
-const Wrapper = styled.section``;
+const Wrapper = styled.section`
+  .about-main {
+    min-height: 100vh;
+  }
+`;
 
 export default About;
