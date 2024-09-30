@@ -156,6 +156,11 @@ const Wrapper = styled.section`
       width: 830px;
     }
   }
+  @media screen and (max-width: 400px) {
+    .img {
+      width: 250px !important;
+    }
+  }
 `;
 
 export default SingleProject;
