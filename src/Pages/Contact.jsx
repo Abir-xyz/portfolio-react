@@ -38,7 +38,7 @@ const Contact = () => {
                 <input
                   type='hidden'
                   name='redirect'
-                  value='https://abirr.netlify.app/thankyou'
+                  value='https://abir.netlify.app/thankyou'
                 />
                 <input
                   type='hidden'
