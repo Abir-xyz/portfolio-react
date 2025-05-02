@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import FooterDivider from './FooterDivider';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <Wrapper className='section'>
       <div>
@@ -34,7 +36,7 @@ const Footer = () => {
           <div className='footer-main-container'>
             <div className='footer-text-container'>
               <p className='footer-end'>
-                &copy; copyright 2024; all rights reserved.
+                &copy; copyright {year}; all rights reserved.
               </p>
             </div>
           </div>

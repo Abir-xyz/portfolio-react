@@ -5,7 +5,7 @@ const SingleProject = () => {
   return (
     <Wrapper className='section'>
       <div className='wrapper'>
-        {Data.slice(0, 3).map((item) => {
+        {Data.map((item) => {
           return (
             <div
               className='project-wrapper'

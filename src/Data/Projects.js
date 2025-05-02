@@ -1,6 +1,7 @@
-import imgOne from '../assets/projects/project-spotify.png';
-import imgTwo from '../assets/projects/project-github-2.png';
-import imgThree from '../assets/projects/project-store.png';
+import imgOne from '../assets/projects/spotify-iphone.png';
+import imgTwo from '../assets/projects/github-iphone.png';
+import imgThree from '../assets/projects/res-iphone.png';
+import imgFour from '../assets/projects/movie-phone.png';
 
 const Data = [
   {
@@ -20,8 +21,8 @@ const Data = [
     site: 'https://spotify-wrap.netlify.app',
     background: `linear-gradient(
     120deg,
-    rgba(255, 127, 212, 0.25) 0%,
-    rgba(255, 127, 212, 0.25) 90%
+    rgba(255, 127, 212, 0.1) 0%,
+    rgba(255, 127, 212, 0.8) 90%
   )`,
   },
   {
@@ -42,8 +43,8 @@ const Data = [
     site: 'https://caeserpizzastore.netlify.app',
     background: `linear-gradient(
     120deg,
-    rgba(14, 174, 87, 0.25) 0%,
-    rgba(12, 116, 117, 0.25) 90%
+    rgba(14, 174, 87, 0.1) 0%,
+    rgba(12, 116, 117, 0.8) 90%
   )`,
   },
   {
@@ -64,8 +65,29 @@ const Data = [
     site: 'https://githubstatistics.netlify.app',
     background: `linear-gradient(
     120deg,
-    rgba(172, 207, 108, 0.25) 0%,
-    rgba(172, 207, 108, 0.25) 90%
+    rgba(172, 207, 108, 0.1) 0%,
+    rgba(172, 207, 108, 0.8) 90%
+  )`,
+  },
+  {
+    id: 4,
+    title: `Movie Streaming`,
+    desc: `A web-based streaming platform that allows users to watch movies and TV shows directly from their browser.`,
+    stacks: [
+      'React',
+      'React-Router',
+      'Axios',
+      'Styled-Components',
+      'TMDB & Vidsrc API',
+      'Auth0',
+    ],
+    img: imgFour,
+    href: 'https://github.com/Abir-xyz/moviedekhbo-frontend',
+    site: 'https://moviedekhbo.netlify.app/',
+    background: `linear-gradient(
+    120deg,
+    rgba(68, 143, 184, 0.1) 0%,
+    rgba(116, 164, 190, 0.8) 90%
   )`,
   },
 ];

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import SingleProject from '../Components/SingleProject';
+import AllProjects from '../Components/AllProjects';
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
         >
           <h1>Featured Works</h1>
         </div>
-        <SingleProject />
+        <AllProjects />
       </div>
     </Wrapper>
   );
