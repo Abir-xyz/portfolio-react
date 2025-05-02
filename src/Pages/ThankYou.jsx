@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import successImg from '../assets/theme/success.svg';
 
 const ThankYou = () => {
   return (
@@ -7,8 +8,12 @@ const ThankYou = () => {
       <section className='page-wrapper'>
         <div className='page-center'>
           <div className='page'>
-            <h1>Success!</h1>
-            <p>your form has been submitted. expect updates soon</p>
+            <div className='img-wrapper'>
+              <img src={successImg} alt='image' className='img' />
+            </div>
+            <div className='txt-wrapper'>
+              <p>your form has been submitted. expect updates soon!</p>
+            </div>
             <Link to='/contact' className='page-link'>
               go back
             </Link>
@@ -30,18 +35,25 @@ const Wrapper = styled.section`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
   }
-  .page h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
-  }
-  .page p {
+
+  .txt-wrapper {
     text-transform: capitalize;
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    text-align: center;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+  }
+
+  .page-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .img {
+    display: block;
+    width: 100%;
+    height: 500px;
   }
 
   .page-link {

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import errorImg from '../assets/theme/error.svg';
 
 const Error = () => {
   return (
@@ -7,7 +8,9 @@ const Error = () => {
       <section className='page-wrapper'>
         <div className='page-center'>
           <div className='page'>
-            <h1>404</h1>
+            <div className='img-wrapper'>
+              <img src={errorImg} alt='image' className='img' />
+            </div>
             <p>your page was not found!</p>
             <Link to='/' className='page-link'>
               go home
@@ -30,15 +33,27 @@ const Wrapper = styled.section`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
   }
-  .page h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+
+  .page-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
+
+  .img-wrapper {
+    margin-bottom: 1.6rem;
+  }
+
+  .img {
+    display: block;
+    width: 100%;
+  }
+
   .page p {
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 1rem;
     text-align: center;
