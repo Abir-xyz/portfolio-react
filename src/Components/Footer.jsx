@@ -20,11 +20,11 @@ const Footer = () => {
                     <i className='fa-brands fa-github'></i>
                   </a>
                 </li>
-                <li className='footer-li'>
+{/*                 <li className='footer-li'>
                   <a href='#' className='footer-linkedin'>
                     <i className='fa-brands fa-linkedin-in'></i>
                   </a>
-                </li>
+                </li> */}
                 <li className='footer-li'>
                   <a href='mailto: management.abir@gmail.com'>
                     <i className='fa-solid fa-envelope'></i>
