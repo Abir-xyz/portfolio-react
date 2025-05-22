@@ -125,10 +125,9 @@ const Wrapper = styled.section`
       flex: 0 0 calc(0);
     }
     .skills-main-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1rem;
     }
   }
 `;
