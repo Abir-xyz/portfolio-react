@@ -19,7 +19,7 @@ const About = () => {
           <div className='about-text-wrapper'>
             <p className='about-text'>
               Hi, I'm Abir, a front-end web developer based in Bangladesh,
-              currently pursuing my high school education. I began my web
+              currently pursuing my dreams! I began my web
               development journey in 2021 during the height of the COVID-19
               pandemic, driven by a strong passion for coding. Over time, coding
               has grown into one of my favorite hobbies. I specialize in
