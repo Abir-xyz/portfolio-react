@@ -69,27 +69,27 @@ const Data = [
     rgba(172, 207, 108, 0.8) 90%
   )`,
   },
-  {
-    id: 4,
-    title: `Movie Streaming`,
-    desc: `A web-based streaming platform that allows users to watch movies and TV shows directly from their browser.`,
-    stacks: [
-      'React',
-      'React-Router',
-      'Axios',
-      'Styled-Components',
-      'TMDB & Vidsrc API',
-      'Auth0',
-    ],
-    img: imgFour,
-    href: 'https://github.com/Abir-xyz/moviedekhbo-frontend',
-    site: 'https://moviedekhbo.netlify.app/',
-    background: `linear-gradient(
-    120deg,
-    rgba(68, 143, 184, 0.1) 0%,
-    rgba(116, 164, 190, 0.8) 90%
-  )`,
-  },
+  // {
+  //   id: 4,
+  //   title: `Movie Streaming`,
+  //   desc: `A web-based streaming platform that allows users to watch movies and TV shows directly from their browser.`,
+  //   stacks: [
+  //     'React',
+  //     'React-Router',
+  //     'Axios',
+  //     'Styled-Components',
+  //     'TMDB & Vidsrc API',
+  //     'Auth0',
+  //   ],
+  //   img: imgFour,
+  //   href: 'https://github.com/Abir-xyz/moviedekhbo-frontend',
+  //   site: 'https://moviedekhbo.netlify.app/',
+  //   background: `linear-gradient(
+  //   120deg,
+  //   rgba(68, 143, 184, 0.1) 0%,
+  //   rgba(116, 164, 190, 0.8) 90%
+  // )`,
+  // },
 ];
 
 export default Data;

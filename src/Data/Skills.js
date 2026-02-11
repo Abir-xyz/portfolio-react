@@ -9,6 +9,9 @@ import github from '../assets/skillsPng/github.png';
 import styled from '../assets/skillsPng/styled-components.png';
 import tailwind from '../assets/skillsPng/tailwind.svg';
 import bootstrap from '../assets/skillsPng/bootstrap.png';
+import nodejs from '../assets/skillsPng/node1.png';
+import expressjs from '../assets/skillsPng/express.png';
+import mongodb from '../assets/skillsPng/mongodb.png'
 
 const skills = [
   {
@@ -66,6 +69,21 @@ const skills = [
     img: bootstrap,
     title: 'bootstrap',
   },
+  {
+    id: 12,
+    img: nodejs,
+    title: 'nodeJs',
+  },
+  {
+    id: 13,
+    img: expressjs,
+    title: 'expressJs'
+  },
+  {
+    id:14,
+    img: mongodb,
+    title: 'mongoDB'
+  }
 ];
 
 export default skills;
