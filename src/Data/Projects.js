@@ -4,27 +4,27 @@ import imgThree from '../assets/projects/res-iphone.png';
 import imgFour from '../assets/projects/movie-phone.png';
 
 const Data = [
-  {
-    id: 1,
-    title: 'Spotify Profile Insights',
-    desc: `Visualize the data of user's spotify activity. View Top Artist, Top Tracks, Playlists, Recently Played Tracks and more`,
-    stacks: [
-      'React',
-      'React-Router',
-      'Axios',
-      'Netlify Functions',
-      'Styled-Components',
-      'Spotify REST Api',
-    ],
-    img: imgOne,
-    href: 'https://github.com/Abir-xyz/spotify-stats-react',
-    site: 'https://spotify-wrap.netlify.app',
-    background: `linear-gradient(
-    120deg,
-    rgba(255, 127, 212, 0.1) 0%,
-    rgba(255, 127, 212, 0.8) 90%
-  )`,
-  },
+  // {
+  //   id: 1,
+  //   title: 'Spotify Profile Insights',
+  //   desc: `Visualize the data of user's spotify activity. View Top Artist, Top Tracks, Playlists, Recently Played Tracks and more`,
+  //   stacks: [
+  //     'React',
+  //     'React-Router',
+  //     'Axios',
+  //     'Netlify Functions',
+  //     'Styled-Components',
+  //     'Spotify REST Api',
+  //   ],
+  //   img: imgOne,
+  //   href: 'https://github.com/Abir-xyz/spotify-stats-react',
+  //   site: 'https://spotify-wrap.netlify.app',
+  //   background: `linear-gradient(
+  //   120deg,
+  //   rgba(255, 127, 212, 0.1) 0%,
+  //   rgba(255, 127, 212, 0.8) 90%
+  // )`,
+  // },
   {
     id: 2,
     title: `Caeser's Pizza Store`,
